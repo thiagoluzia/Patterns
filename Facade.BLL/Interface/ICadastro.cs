@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Facade.BLL
+﻿namespace Facade.BLL
 {
-    interface ICadastro
+    public interface ICadastro
     {
         void Inserir(object obj);
         void Alterar(int id);
         void Excluir(int id);
         object Consultar(int id);
-        List<Object> Listar();
-
     }
 }

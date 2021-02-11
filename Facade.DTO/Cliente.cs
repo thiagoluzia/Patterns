@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
 namespace Facade.DTO
 {
     public class Cliente : Pessoa
@@ -41,7 +40,6 @@ namespace Facade.DTO
             return sb.ToString();
         }
         #endregion
-
 
     }
 }
